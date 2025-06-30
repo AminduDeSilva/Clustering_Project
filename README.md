@@ -179,4 +179,4 @@ This project demonstrates the challenges of unsupervised learning on real-world 
 
 ---
 
-*This project was completed as part of a machine learning coursework focusing on unsupervised learning techniques and clustering analysis.*
+*This project was completed as part of a unsupervised learning coursework focusing on clustering analysis. Graded project of 10% of the examination.*
