@@ -3,11 +3,11 @@
 
 A comprehensive clustering analysis project examining German credit data to identify patterns and group similar credit applicants using various machine learning techniques.
 
-## 📊 Project Overview
+## Project Overview
 
 This project performs an in-depth clustering analysis on German credit data to understand customer segmentation patterns. The analysis includes data preprocessing, dimensionality reduction, and multiple clustering algorithms to identify meaningful groups within the credit applicant population.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Clustering_Project/
@@ -16,7 +16,7 @@ Clustering_Project/
 └── README.md                          # Project documentation
 ```
 
-## 📈 Dataset Information
+## Dataset Information
 
 **Source:** German Credit Data (`german_credit_data.csv`)
 
@@ -49,7 +49,7 @@ The original dataset contains 1000 entries with 20 categorical/symbolic attribut
 - **Average Credit Amount:** ~3,300 DM
 - **Average Duration:** ~21 months
 
-## 🎯 Project Objectives (Original Assignment)
+## Project Objectives (Original Assignment)
 
 1. **(1P) Analyze and clean the data**
    - Determine number of rows, columns, and data types
@@ -68,11 +68,13 @@ The original dataset contains 1000 entries with 20 categorical/symbolic attribut
    - Hierarchical clustering
    - DBSCAN (Density-Based Spatial Clustering)
 
+
+
 5. **(3P) Explain and interpret results**
    - Analyze clustering performance
    - Draw insights from identified patterns
 
-## 🔧 Methodology
+## Methodology
 
 ### 1. Data Preprocessing
 - **Missing Value Treatment:** Dropped rows with missing values (394 entries removed)
@@ -104,7 +106,7 @@ The original dataset contains 1000 entries with 20 categorical/symbolic attribut
 - **Parameters:** Optimized eps and min_samples for each dimensionality reduction technique
 - **Performance:** Suboptimal clustering in both PCA and t-SNE spaces
 
-## 📊 Key Findings
+## Key Findings
 
 ### Data Characteristics
 - **Housing:** Majority of applicants own their homes
@@ -123,7 +125,7 @@ The original dataset contains 1000 entries with 20 categorical/symbolic attribut
 - Credit purposes dominated by consumer goods and vehicles
 - Most applicants maintain stable housing and modest financial accounts
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python Libraries:**
   - `pandas` - Data manipulation and analysis
@@ -139,7 +141,7 @@ The original dataset contains 1000 entries with 20 categorical/symbolic attribut
   - Hierarchical Clustering
   - DBSCAN
 
-## 🚀 How to Run
+## How to Run
 
 1. **Prerequisites:**
    ```bash
@@ -153,7 +155,7 @@ The original dataset contains 1000 entries with 20 categorical/symbolic attribut
 
 3. **Expected Runtime:** ~5-10 minutes depending on system specifications
 
-## 📈 Results Summary
+## Results Summary
 
 The clustering analysis revealed that the German credit data does not exhibit strong natural clustering patterns. This finding is significant as it suggests:
 
@@ -168,11 +170,11 @@ The clustering analysis revealed that the German credit data does not exhibit st
 - **Domain Knowledge Integration:** Incorporate banking domain expertise for feature selection
 - **External Data:** Consider additional economic or demographic variables
 
-## 📝 Conclusions
+## Conclusions
 
 This project demonstrates the challenges of unsupervised learning on real-world financial data. While traditional clustering algorithms provided limited segmentation, the analysis offers valuable insights into the dataset's structure and the complexity of credit risk assessment. The uniform distribution of applicant characteristics suggests that credit risk evaluation requires sophisticated modeling beyond simple demographic clustering.
 
-## 👤 Author
+## Author
 
 **Amindu De Silva** - Clustering Analysis Project
 
